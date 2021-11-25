@@ -1,0 +1,32 @@
+.about-card {
+    background-color: #0197a8;
+    color: white;
+    padding: 30px;
+    position: relative;
+    top: -100px;
+}
+
+.about-btn {
+    position: relative;
+    top: 6px;
+}
+
+.about-package {
+    border-radius: 20px;
+    width: 300px;
+    margin: 30px;
+    margin-left: 400px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .about img {
+          width: 200px;
+      }
+      .about-card {
+          position: relative;
+          right: 400px;
+      }
+  }
